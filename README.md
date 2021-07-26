@@ -8,9 +8,9 @@ Separation of two musical instruments through the use of frequency filters, litt
 
 **Goals:**
 
- 1. Analysis of the traces of the didgeridoo and the triangle separately
+ 1. Analysis of the tracks of the didgeridoo and the triangle separately
  2. Overlapping the tracks of the two instruments to form a single track
- 3. Analysis of the single trace
+ 3. Analysis of the single track
  4. Separation of the single track in order to obtain the tracks of the two different instruments analyzed previously
 
 **References of .wav files**
@@ -54,7 +54,7 @@ I use band-pass filters in this project.
 
 ### Execution
 
-Basically I analyze the tracks of the two musical instruments in order to understand at which frequencies they work, then I combine them into a single musical track and analyze it and finally, using the information I have acquired from the previous analyzes, I separate the combined track into two tracks in order obtain traces as similar as possible to the starting ones.
+Basically I analyze the tracks of the two musical instruments in order to understand at which frequencies they work, then I combine them into a single musical track and analyze it and finally, using the information I have acquired from the previous analyzes, I separate the combined track into two tracks in order obtain tracks as similar as possible to the starting ones.
 
 **Didgeridoo Audio Signal Analysis:**
 
@@ -125,10 +125,12 @@ Separazione di due strumenti musicali mediante l'utilizzo di filtri in frequenza
  4. Separazione della traccia unica al fine di ottenere le tracce dei due diversi strumenti analizzati in precedenza
 
 **Riferimenti dei file .wav**
+
 **didgeridoo.wav:** file scaricato dal sito [SampleSwap](https://sampleswap.org/filebrowser-new.php?q=didgeridoo.wav)
 **triangolo.wav:** traccia scaricata dal sito [SampleSwap](https://sampleswap.org/filebrowser-new.php?q=triangle10.wav) e poi modificata con un programma in Python, creato da me, in modo da ottenere il suono in un loop di 4 secondi
 
 **Riferimenti esterni**
+
 Materiale presente su Aulaweb e qualche informazione su siti come Wikipedia
 
 
