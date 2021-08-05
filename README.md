@@ -60,7 +60,7 @@ Basically I analyze the tracks of the two musical instruments in order to unders
 
 We can see that the frequency graph of the didgeridoo turns out to be substantially null with about: 2000Hz < f <42000Hz
 
-![Didgeridoo Audio Signal Analysis](https://user-images.githubusercontent.com/33847220/126905605-baaa51c6-d101-4f7c-a761-7b782a348092.png)
+![Didgeridoo Audio Signal Analysis](https://user-images.githubusercontent.com/33847220/128391836-5744f283-fa9f-4f7e-bc60-38e7a2acbfbf.png)
 
 **Triangle audio signal analysis:**
 
@@ -76,13 +76,13 @@ We can note that the graph of the frequencies of the triangle turns out to be su
 
  f > 39500Hz (except a small peak)
 
-![Triangle audio signal analysis](https://user-images.githubusercontent.com/33847220/126905706-31aa66ee-d5bd-48fe-9c3e-5104105ea6eb.png)
+![Triangle audio signal analysis](https://user-images.githubusercontent.com/33847220/128391938-aab220ca-453e-4d2b-bc4e-8e5db5c70fdd.png)
 
 **Analysis of the only musical track obtained by superimposing the tracks of the previous instruments**
 
-We can note that the graph of the frequencies of the superimposed sound turns out to be substantially null with about: 11000Hz <f <34000Hz
+We can note that the graph of the frequencies of the superimposed sound turns out to be substantially null with about: 11000Hz < f <34000Hz
 
-![Analysis of the single musical track obtained by superimposing the tracks of the previous instruments](https://user-images.githubusercontent.com/33847220/126907355-9dfce2c7-6b50-4bc4-96ea-2be2c6678ca6.png)
+![Analysis of the single musical track obtained by superimposing the tracks of the previous instruments](https://user-images.githubusercontent.com/33847220/128392109-eb782823-e59c-45ee-96fb-1de33bdb0a3b.png)
 
 **I get the triangle sound from the overlapping sound**
 
@@ -96,7 +96,7 @@ I filter the overlaid sound in frequency and zero all frequencies where
 
 Respecting what we noticed in the graph of the Fourier transform obtained during the analysis of the audio signal of the triangle.
 
-![I get the triangle sound from the overlapping sound](https://user-images.githubusercontent.com/33847220/126907408-27ac8958-2fc7-44b1-8e8d-c6025d2fca8c.png)
+![I get the triangle sound from the overlapping sound](https://user-images.githubusercontent.com/33847220/128392181-94780a28-0235-4770-afbf-7e414ee65191.png)
 
 **I get the didgeridoo sound from the overlapping sound**
 
@@ -104,7 +104,7 @@ Filter the sound superimposed in frequency and zero all frequencies where 2000Hz
 
 Respecting what we noticed in the graph of the Fourier transform obtained during the analysis of the audio signal of the didgeridoo.
 
-![I get the didgeridoo sound from the overlapping sound](https://user-images.githubusercontent.com/33847220/126907487-284b87f4-6161-4488-abcf-26369f57f079.png)
+![I get the didgeridoo sound from the overlapping sound](https://user-images.githubusercontent.com/33847220/128392259-7628ff9d-7e29-41c4-ad4e-39487715e3ae.png)
 
 To listen to the sounds obtained, it is necessary to use the inverse Fourier transform which will bring us back to the time-dependent and therefore listenable signals.
 
@@ -126,8 +126,8 @@ Separazione di due strumenti musicali mediante l'utilizzo di filtri in frequenza
 
 **Riferimenti dei file .wav**
 
-**didgeridoo.wav:** file scaricato dal sito [SampleSwap](https://sampleswap.org/filebrowser-new.php?q=didgeridoo.wav)
-**triangolo.wav:** traccia scaricata dal sito [SampleSwap](https://sampleswap.org/filebrowser-new.php?q=triangle10.wav) e poi modificata con un programma in Python, creato da me, in modo da ottenere il suono in un loop di 4 secondi
+ - **didgeridoo.wav:** file scaricato dal sito [SampleSwap](https://sampleswap.org/filebrowser-new.php?q=didgeridoo.wav)
+ - **triangle.wav:** traccia scaricata dal sito [SampleSwap](https://sampleswap.org/filebrowser-new.php?q=triangle10.wav) e poi modificata con un programma in Python, creato da me, in modo da ottenere il suono in un loop di 4 secondi
 
 **Riferimenti esterni**
 
@@ -173,7 +173,7 @@ Sostanzialmente analizzo le tracce dei due strumenti musicali in modo da capire 
 
 Possiamo notare che il grafico delle frequenze del didgeridoo risulta essere sostanzialmente nullo con circa: 2000Hz < f < 42000Hz
 
-![Analisi del segnale audio del didgeridoo](https://user-images.githubusercontent.com/33847220/126905605-baaa51c6-d101-4f7c-a761-7b782a348092.png)
+![Analisi del segnale audio del didgeridoo](https://user-images.githubusercontent.com/33847220/128392487-82531701-6b7a-45a1-8b31-8bd19326336b.png)
 
 **Analisi del segnale audio del triangolo:**
 
@@ -189,13 +189,13 @@ Possiamo notare che il grafico delle frequenze del triangolo risulta essere sost
 
  f > 39500Hz (eccetto un piccolo picco)
 
-![Analisi del segnale audio del triangolo](https://user-images.githubusercontent.com/33847220/126905706-31aa66ee-d5bd-48fe-9c3e-5104105ea6eb.png)
+![Analisi del segnale audio del triangolo](https://user-images.githubusercontent.com/33847220/128392535-66c1c844-1318-4ad7-b6c5-c22f66da01c8.png)
 
 **Analisi dell'unica traccia musicale ottenuta dalla sovrapposizione delle tracce degli strumenti precedenti**
 
 Possiamo notare che il grafico delle frequenze del suono sovrapposto risulta essere sostanzialmente nullo con circa: 11000Hz < f < 34000Hz
 
-![Analisi dell'unica traccia musicale ottenuta dalla sovrapposizione delle tracce degli strumenti precedenti](https://user-images.githubusercontent.com/33847220/126907355-9dfce2c7-6b50-4bc4-96ea-2be2c6678ca6.png)
+![Analisi dell'unica traccia musicale ottenuta dalla sovrapposizione delle tracce degli strumenti precedenti](https://user-images.githubusercontent.com/33847220/128392652-60b23ebd-6d3f-4452-bbc7-9df3b4d60ffb.png)
 
 **Ottengo il suono del triangolo dal suono sovrapposto**
 
@@ -209,7 +209,7 @@ Filtro il suono sovrapposto in frequenza e azzero tutte le frequenze dove
 
 Rispettando quello che abbiamo notato nel grafico della trasformata di Fourier ottenuta durante l'analisi del segnale audio del triangolo.
 
-![Ottengo il suono del triangolo dal suono sovrapposto](https://user-images.githubusercontent.com/33847220/126907408-27ac8958-2fc7-44b1-8e8d-c6025d2fca8c.png)
+![Ottengo il suono del triangolo dal suono sovrapposto](https://user-images.githubusercontent.com/33847220/128392742-fd9000cf-b793-463f-a9fa-b4eebc11cab1.png)
 
 **Ottengo il suono del didgeridoo dal suono sovrapposto**
 
@@ -217,7 +217,7 @@ Filtro il suono sovrapposto in frequenza e azzero tutte le frequenze dove 2000Hz
 
 Rispettando quello che abbiamo notato nel grafico della trasformata di Fourier ottenuta durante l'analisi del segnale audio del didgeridoo.
 
-![Ottengo il suono del didgeridoo dal suono sovrapposto](https://user-images.githubusercontent.com/33847220/126907487-284b87f4-6161-4488-abcf-26369f57f079.png)
+![Ottengo il suono del didgeridoo dal suono sovrapposto](https://user-images.githubusercontent.com/33847220/128392839-083be356-8e02-4438-be63-b235baa7ab5a.png)
 
 Per ascoltare i suoni ottenuti è necessario utilizzare la trasformata inversa di Fourier che ci riporterà ai segnali dipendenti dal tempo e quindi ascoltabili.
 
