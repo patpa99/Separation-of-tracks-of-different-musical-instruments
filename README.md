@@ -106,7 +106,7 @@ Respecting what we noticed in the graph of the Fourier transform obtained during
 
 ![I get the didgeridoo sound from the overlapping sound](https://user-images.githubusercontent.com/33847220/128392259-7628ff9d-7e29-41c4-ad4e-39487715e3ae.png)
 
-To listen to the sounds obtained, it is necessary to use the inverse Fourier transform which will bring us back to the time-dependent and therefore listenable signals.
+To hear the sounds obtained, it is necessary to use the inverse Fourier transform which will bring us back to the time-dependent and therefore listenable signals.
 
 To hear all the sounds and further deepen the conclusions and technical details read the Notebook.
 
