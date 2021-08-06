@@ -40,7 +40,7 @@ To filter a signal in the frequency domain it is necessary:
  2. Multiply the Fourier transform found (F(x)) by a filter function (H(x))
  3. Calculate the inverse of the Fourier transform of the one obtained from the previous point, in order to return to the time domain
 
-![Filtering procedure](https://user-images.githubusercontent.com/33847220/126905360-286a2fa1-2181-410f-8df1-26b8df0c00d1.png)
+![Filtering procedure](https://user-images.githubusercontent.com/33847220/128510072-c83eead1-e428-4062-9d97-597028ecf947.png)
 
 The types of frequency filters are:
 
